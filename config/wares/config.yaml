@@ -9,7 +9,6 @@ settings:
     openrc:
       install: doas rc-update add
       remove: doas rc-update del
-      update: ""
 
 wares:
   wares:
@@ -83,6 +82,7 @@ managers:
   - font-lato
   - seahorse
   - dbus-x11
+  - font-roboto-mono
   openrc:
   - fuse
   - seatd

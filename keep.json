@@ -1,9 +1,10 @@
 {
   "links": [
-    { "source": "config/ghostty", "target": "~/.config/ghostty" },
-    { "source": "config/helix",   "target": "~/.config/helix" },
-    { "source": "config/nushell", "target": "~/.config/nushell" },
-    { "source": "config/river",   "target": "~/.config/river" },
-    { "source": "config/wares",   "target": "~/.config/wares" }   
+    { "source": "config/ghostty",  "target": "~/.config/ghostty" },
+    { "source": "config/helix",    "target": "~/.config/helix" },
+    { "source": "config/nushell",  "target": "~/.config/nushell" },
+    { "source": "config/river",    "target": "~/.config/river" },
+    { "source": "config/wares",    "target": "~/.config/wares" },
+    { "source": "config/spyglass", "target": "~/.config/spyglass" }
   ]
 }

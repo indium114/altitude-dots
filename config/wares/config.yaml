@@ -1,0 +1,92 @@
+settings:
+  platform: linux
+  arch: x86_64
+  managers:
+    apk:
+      install: doas apk add
+      remove: doas apk del
+      update: doas apk update; doas apk upgrade
+    openrc:
+      install: doas rc-update add
+      remove: doas rc-update del
+      update: ""
+
+wares:
+  wares:
+    repo: indium114/wares
+    asset: wares_Linux_x86_64
+    name: wares
+  hx:
+    repo: helix-editor/helix
+    asset: "*.AppImage"
+    name: hx
+  fastfetch:
+    repo: fastfetch-cli/fastfetch
+    asset: fastfetch-linux-amd64.tar.gz
+    name: usr/bin/fastfetch
+    removetoplevel: true
+  gh:
+    repo: cli/cli
+    asset: gh_*_linux_amd64.tar.gz
+    name: bin/gh
+    removetoplevel: true
+  lazygit:
+    repo: jesseduffield/lazygit
+    asset: lazygit_*_linux_x86_64.tar.gz
+    name: lazygit
+  spyglass:
+    repo: indium114/spyglass
+    asset: spyglass_Linux_x86_64
+    name: spyglass
+  tldr:
+    repo: tldr-pages/tlrc
+    asset: "*-x86_64-unknown-linux-musl.tar.gz"
+    name: tldr
+  dotkeeper:
+    repo: indium114/dotkeeper
+    asset: dotkeeper_Linux_x86_64
+    name: dotkeeper
+
+managers:
+  apk:
+  - fuse
+  - fuse3
+  - nushell
+  - gcompat
+  - shadow
+  - alpine-sdk
+  - seatd
+  - libuser
+  - seatd-launch
+  - alpine-conf
+  - elogind
+  - polkit-elogind
+  - xorg-server
+  - foot
+  - xf86-video-intel
+  - mesa-vulkan-intel
+  - font-space-mono-nerd
+  - river-classic
+  - nix
+  - ghostty
+  - dino
+  - udisks2
+  - nemo
+  - bash
+  - keepassxc
+  - librewolf
+  - tuba
+  - file-roller
+  - nwg-look
+  - tmux
+  - sassc
+  - font-lato
+  - seahorse
+  - dbus-x11
+  openrc:
+  - fuse
+  - seatd
+  - elogind
+  - dbus
+  - nix-daemon
+  - udisks2

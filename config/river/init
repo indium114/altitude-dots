@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+
+# mappings
+riverctl map normal Super Grave spawn "ghostty --title='Spyglass' -e spyglass"
+riverctl map normal Super Return spawn ghostty
+riverctl map normal Super Q close
+riverctl map normal Super+Shift Grave exit
+riverctl map normal Super J swap next
+riverctl map normal Super K swap previous
+
+# rules
+riverctl rule-add -title 'Spyglass' float
+
+# layout
+riverctl default-layout rivertile
+rivertile -view-padding 10 -outer-padding 10 &

@@ -1,5 +1,11 @@
 #!/usr/bin/env sh
 
+# borders
+riverctl border-color-focused '0xcba6f7'
+riverctl border-color-unfocused '0x1e1e2e'
+riverctl border-color-urgent '0xf38ba8'
+riverctl border-width 5
+
 # mappings
 riverctl map normal Super Grave spawn "ghostty --title='Spyglass' -e spyglass"
 riverctl map normal Super Return spawn ghostty

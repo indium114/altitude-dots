@@ -1,5 +1,5 @@
 theme = Catppuccin Mocha
 window-decoration = false
 command = tmux
-font-family = Space Mono
-font-size = 12
+font-family = Martian Mono Cn Md
+font-size = 11

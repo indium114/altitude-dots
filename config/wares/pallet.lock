@@ -76,6 +76,7 @@ managers:
   - font-lato
   - seahorse
   - dbus-x11
+  - font-roboto-mono
   openrc:
   - fuse
   - seatd

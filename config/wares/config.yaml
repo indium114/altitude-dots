@@ -83,6 +83,7 @@ managers:
   - seahorse
   - dbus-x11
   - font-roboto-mono
+  - swaybg
   openrc:
   - fuse
   - seatd
